@@ -1,0 +1,12 @@
+import csv
+
+class Stock:
+    def __init__(self, filename):
+    # open the Dow Data csv file
+        with open(filename, "r") as file:
+            reader = csv.DictReader(file)
+            self.rows = list(reader)
+
+dow = Stock("DowData.csv")
+print(dow.rows[0])
+print(len(dow.rows))
