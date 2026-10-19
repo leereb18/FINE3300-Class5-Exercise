@@ -1,9 +1,2 @@
-import csv
-
-class Stock:
-    def __init__(self, filename)
-    # open the Dow Data csv file
-        with open(filename, "r") as file:
-            reader = csv.DictReader(file)
-
-print
+FINE3300-Class5-Exercise
+# Design a Stock class and an Index class given the Dow excel file
